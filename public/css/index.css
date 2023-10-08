@@ -1,0 +1,201 @@
+.task1 {
+  background-color: green;
+}
+
+
+.task2 {
+  background-image: url('/img/img-400x200.jpg');
+  background-size: cover;
+}
+
+
+.task3 {
+  background: linear-gradient(to bottom, yellow, red);
+}
+
+.task4 {
+  background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+
+.task5 {
+  background: conic-gradient(from 3.1416rad at 10% 50%, #e66465, #9198e5);
+}
+
+.task6 {
+  background-image: url('/img/img-400x200.jpg');
+    background-repeat: repeat-x;
+}
+  
+
+
+.task7 {
+  background-image: url('/img/img-400x200.jpg');
+  background-repeat: repeat-y;
+}
+
+.task8 {
+  background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat;
+}
+
+.task9 {
+  background-image: url('/img/img-400x200.jpg');
+  background-size: contain;
+}
+
+.task10 {
+  background-image: url('/img/img-400x200.jpg');
+  background-size: cover;
+}
+
+.task11 {
+  background-image: url('/img/img-400x200.jpg');
+  background-attachment: fixed;
+}
+
+.task12 {
+  background-image: url('/img/img-400x200.jpg');
+  background-attachment: scroll;
+}
+
+.task13 {
+  background-image: url('/img/img-400x200.jpg');
+  background-attachment: local;
+}
+
+.task14 {
+  background-image: url('/img/img-400x200.jpg');
+  background-position: center;
+}
+
+.task15 {
+  background-image: url('/img/img-400x200.jpg');
+  background-position: top;
+}
+
+.task16 {
+  background-image: url('/img/img-400x200.jpg');
+  background-position: bottom;
+}
+
+.task17 {
+  background-image: url('/img/img-400x200.jpg');
+  background-position: left;
+}
+
+.task18 {
+  background-image: url('/img/img-400x200.jpg');
+  background-position: right;
+}
+
+.task19 {
+  background-image: url('/img/img-400x200.jpg');
+  background-position: 100px 0;
+}
+
+.task20 {
+  background-image: url('/img/img-400x200.jpg');
+  background-size: auto;
+}
+
+.task21 {
+  background-image: url('/img/img-400x200.jpg');
+  background-size: 600px;
+}
+
+.task22 {
+  background-image: url('/img/img-400x200.jpg');
+  background-size: 50% 50%;
+}
+
+.task23 {
+  background-image: url('/img/img-400x200.jpg');
+  background-size: contain;
+}
+
+.task24 {
+  background-image: url('/img/img-400x200.jpg');
+  background-size: 100% 100%;
+}
+
+.task25 {
+  border: 20px dashed black;
+  background-image: url('/img/img-400x200.jpg');
+  box-sizing: border-box;
+  background-clip: content-box;
+}
+
+.task26 {
+  background-image: url('/img/img-400x200.jpg');
+  border: 20px dashed black;
+  box-sizing: border-box;
+  background-clip: padding-box;
+
+}
+
+.task27 {
+  background-image: url('/img/img-400x200.jpg');
+  font-size: 120px;
+  font-weight: 900;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.task28 {
+  background-image: url('/img/img-400x200.jpg');
+  box-sizing: border-box;
+  border: 20px dashed black;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+
+.task29 {
+  background-image: url('/img/img-400x200.jpg');
+  box-sizing: border-box;
+  border: 20px dashed black;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+}
+
+.task30 {
+  background-image: url('/img/img-400x200.jpg');
+  box-sizing: border-box;
+  border: 20px dashed black;
+  background-repeat: no-repeat;
+  font-size: 100px;
+  font-weight: 900;
+  padding: 60px;
+  background-origin: content-box;
+}
+
+.task31 {
+  border-image-slice: 1%;
+  border-image-width: 40px;
+  box-sizing: border-box;
+  border: 5px solid;
+  border-image: linear-gradient(90deg, blue, green);
+  border-image-slice: 1;
+}
+
+.task32 {
+  border-image-slice: 1%;
+  border-image-width: 40px;
+  box-sizing: border-box;
+  border: 5px solid;
+  border-image: radial-gradient(circle, red 5%, green 15%, blue 60%);
+  border-image-slice: 1;
+}
+
+.task33 {
+  border-image-source: url('/img/img-400x200.jpg');
+  box-sizing: border-box;
+  border-image-width: 40px;
+  border-image-slice: 10;
+  border: 10px solid transparent;
+  border-image: url('img/border-image.png') 10 stretch;
+  border-image-outset: 10px;
+}
